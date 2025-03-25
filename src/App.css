@@ -1,0 +1,92 @@
+th{
+    background-color: #bb82e2;
+    color: aliceblue;
+}
+th span svg path {
+    fill: aliceblue;
+}
+.p-menubar-start {
+    img{
+        height: 100px;
+        margin: 15px;
+    }
+}
+.custom-menubar, .p-menubar-root-list {
+    background-color: #151515;
+    border-color: #151515;
+    height: 70px;
+}
+
+.p-menuitem-text,
+.welcome {
+    color: white;
+}
+
+.p-menuitem-link:hover {
+    background-color: #dab9f0;
+    border-color: #dab9f0;
+    color: white;
+}
+
+.p-button-success,
+.btn-entrar, .btn-orange {
+    background-color: #bf7eeb;
+    border-color: #dab9f0;
+    color: rgb(236, 236, 236);
+}
+
+.p-button-success:hover,
+.btn-entrar:hover, .btn-orange:hover {
+    background-color: #bb82e2;
+    border-color: #dab9f0;
+}
+
+.btn-orange-not-bg {
+    background-color: transparent;
+    background-color: #dab9f0;
+    border-color: #dab9f0;
+}
+
+.p-button-warning {
+    background-color: #dab9f0;
+    border-color: #dab9f0;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; /* Adiciona um pouco de padding horizontal */
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem; /* Ajusta o espaço entre o título e o campo de busca */
+}
+
+.search-input {
+    width: 200px; /* Ajuste a largura do campo de busca conforme necessário */
+}
+
+.search-icon {
+    margin-left: -2rem; /* Ajusta o ícone para que fique sobre o campo de busca */
+    position: absolute; /* Posiciona o ícone sobre o campo de busca */
+    right: 1rem; /* Ajusta a posição do ícone dentro do campo de busca */
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        display: block; /* Altera de flex para block em telas menores */
+    }
+
+    .header-right {
+        margin-top: 0.8em;
+    }
+}
